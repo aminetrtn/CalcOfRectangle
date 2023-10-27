@@ -1,6 +1,11 @@
 import java.util.Scanner;
 public class RectangleArea {
     double a,b,area;
+RectangleArea(){
+    GetData();
+    ComputeFiled();
+    DisplayFields();
+}
      void GetData()
     {
         System.out.println("Hello.Enter the length of the rectangle !");
